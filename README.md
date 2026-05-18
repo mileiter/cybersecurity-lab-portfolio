@@ -29,10 +29,10 @@ A fully simulated three-site enterprise network built in Cisco Packet Tracer, mo
 |---|---|---|
 | CCNA 200-301 | Cisco | Active |
 | CompTIA CySA+ | CompTIA | Active (2025) |
-| CompTIA Security+ | CompTIA | Active |
+| CompTIA Security+ | CompTIA | Reactive after CySA+ pass |
 | MCSA Windows Server 2016 | Microsoft | Earned |
-| CompTIA Network+ | CompTIA | Active |
-| CompTIA A+ | CompTIA | Active |
+| CompTIA Network+ | CompTIA | Expired |
+| CompTIA A+ | CompTIA | Expired |
 
 ---
 
