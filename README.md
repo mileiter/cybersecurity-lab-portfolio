@@ -1,51 +1,84 @@
-# Cybersecurity & IT Infrastructure Portfolio
-**Matthew Leiter** | Trumbull, CT | [LinkedIn](www.linkedin.com/in/matthewisaacleiter)  
-CCNA | CompTIA Security+ | CompTIA CySA+ | MCSA Windows Server 2016 | Network+ | A+
+# Matthew Leiter — Cybersecurity & IT Infrastructure Portfolio
+
+**IT Infrastructure & Security Professional | 10+ Years Experience**  
+CCNA · CompTIA Security+ · CompTIA CySA+ · MCSA Windows Server 2016
 
 ---
 
-## Lab 1: Enterprise Multi-Site Network Design
-**Tools:** Cisco Packet Tracer, draw.io  
-**Skills demonstrated:** Layer 3 design, VLAN segmentation, inter-site routing, network documentation
+## About This Portfolio
 
-A fully simulated three-site enterprise network built in Cisco Packet Tracer, modeled after a real-world organizational topology.
+This repository documents hands-on cybersecurity and infrastructure lab work built to complement real-world experience across SIEM/SOC operations, network security engineering, vulnerability management, incident response, and NIST/FISMA compliance.
 
-**Sites:**
-- HQ — Trumbull, CT (core switching, routing, server infrastructure)
-- Branch 1 — Hartford, CT
+Labs are built on a VirtualBox-based environment running Kali Linux, Metasploitable 2, and a Wazuh SIEM server. Network simulations use Cisco Packet Tracer.
 
-**Design highlights:**
-- Full Layer 3 topology with inter-site routing
-- VLAN segmentation per department/function
-- Annotated device configurations
-- draw.io topology diagram documenting the full architecture
+---
 
-📁 [Download Packet Tracer File](./My%20Design.pkt)
+## Lab Modules
+
+### 1. SOC & SIEM Operations
+**Tools:** Wazuh, Splunk, Blumira  
+- SIEM deployment, log ingestion, and alert tuning  
+- SOC event triage and escalation workflows  
+- Brute force and lateral movement detection  
+- MITRE ATT&CK mapping of detected events  
+- *Status: In Progress*
+
+### 2. Network Enterprise Topology
+**Tools:** Cisco Packet Tracer, Kali Linux, Wireshark, Nmap  
+- Three-site enterprise topology (HQ Trumbull, Branch Hartford, Branch Bridgeport)  
+- VLANs, OSPF, HSRP, ACLs, and inter-VLAN routing  
+- Network reconnaissance and enumeration techniques  
+- Traffic analysis and anomaly detection  
+- *Status: Packet Tracer topology published — labs in progress*
+
+### 3. Vulnerability Assessment & Penetration Testing
+**Tools:** Kali Linux, Metasploitable 2, Nmap, Metasploit, Nikto  
+- Controlled exploitation in isolated lab environment  
+- Vulnerability scanning and CVE analysis  
+- Post-exploitation and remediation documentation  
+- *Status: In Progress*
+
+### 4. Forensics & Incident Response
+**Tools:** Volatility, Autopsy, Wireshark  
+- Memory forensics and disk image analysis  
+- NIST 800-61 incident response lifecycle  
+- Evidence collection and chain of custody documentation  
+- *Status: In Progress*
+
+### 5. NIST/FISMA Compliance
+**Frameworks:** NIST 800-53, NIST 800-61, RMF, FISMA  
+- Control mapping and security assessment documentation  
+- Risk Management Framework (RMF) process walkthroughs  
+- System Security Plan (SSP) templates  
+- *Status: In Progress*
+
+---
+
+## Enterprise Network Topology
+
+The `My Design.pkt` file contains a full three-site Cisco Packet Tracer lab:
+
+| Site | Role | Key Configs |
+|------|------|-------------|
+| Trumbull | HQ | Core routing, HSRP primary, inter-VLAN |
+| Hartford | Branch | OSPF adjacency, VLAN segmentation |
+| Bridgeport | Branch | OSPF adjacency, VLAN segmentation, ACLs |
 
 ---
 
 ## Certifications
-| Certification | Issuer | Status |
+
+| Certification | Issuer | Date |
 |---|---|---|
-| CCNA 200-301 | Cisco | Active |
-| CompTIA CySA+ | CompTIA | Active (2025) |
-| CompTIA Security+ | CompTIA | Reactive after CySA+ pass |
-| MCSA Windows Server 2016 | Microsoft | Earned |
-| CompTIA Network+ | CompTIA | Expired |
-| CompTIA A+ | CompTIA | Expired |
+| CompTIA CySA+ | CompTIA | May 2026 |
+| CCNA 200-301 | Cisco | Renewed Feb 2026 |
+| CompTIA Security+ | CompTIA | — |
+| MCSA: Windows Server 2016 | Microsoft | — |
+| CompTIA Network+ | CompTIA | — |
 
 ---
 
-## Tools & Platforms
-**Security:** Blumira SIEM, Bitdefender GravityZone EDR, BeyondTrust PAM
-**Network:** SonicWall, Ubiquiti, HPE Switches, Cisco IOS  
-**Microsoft Stack:** Windows Server, Active Directory, Microsoft 365, Entra ID, Exchange Online  
-**Backup/DR:** Veeam Backup & Replication  
-**Scripting:** PowerShell, Python (in progress)
+## Connect
 
----
-
-## Labs In Progress
-- SIEM log analysis lab (Wazuh + Windows event logs)
-- Active Directory attack & defense simulation
-- Vulnerability scanning with Nessus Essentials
+- LinkedIn: [linkedin.com/in/matthewisaacleiter](https://www.linkedin.com/in/matthewisaacleiter/)
+- Location: Trumbull, CT
